@@ -1,0 +1,10 @@
+#Latihan 1
+
+reza=read.delim("clipboard")
+View(reza)
+t.test(reza$Volume, conf.level = 0.95)
+
+#Latihan 2
+reza=read.delim("clipboard")
+View(reza)
+t.test(reza$Volume, conf.level = 0.50)
